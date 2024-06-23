@@ -7,8 +7,8 @@ This repository contains a Streamlit app for deploying and evaluating different 
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/DeepikaGundrathi/skyserver-ml-deployment.git
-    cd skyserver-ml-deployment
+    git clone https://github.com/DeepikaGundrathi/Sloan_SDSS.git
+    cd Sloan_SDSS
     ```
 
 2. **Install the required dependencies:**
