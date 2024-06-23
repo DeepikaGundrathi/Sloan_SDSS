@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 from sklearn.neighbors import KNeighborsClassifier
@@ -14,8 +14,7 @@ from sklearn.decomposition import PCA
 # Load data
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/your-username/skyserver-ml-deployment/main/your-file.csv"
-    data = pd.read_csv(url)
+    data = pd.read_csv("Skyserver_SQL2_27_2018 6_51_39 PM.csv")  
     return data
 
 # Preprocess data
